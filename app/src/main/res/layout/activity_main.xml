@@ -42,7 +42,7 @@
                     android:layout_weight="1.5"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Name" />
+                    android:text="Usuario" />
 
                 <EditText
                     android:id="@+id/editTextPassword"
@@ -52,7 +52,7 @@
                     android:ems="10"
                     android:foregroundGravity="bottom"
                     android:inputType="textPersonName"
-                    android:text="Name" />
+                    android:text="Contraseña" />
             </LinearLayout>
 
 
@@ -84,7 +84,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Iniciar Sesion" />
+                android:text="Iniciar Sesion"
+                android:onClick="Acceder"/>
 
             <Space
                 android:layout_width="wrap_content"
@@ -96,8 +97,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="SalirApp"
                 android:text="Salir"
-                android:onClick="SalirApp"/>
+                />
         </LinearLayout>
 
 
