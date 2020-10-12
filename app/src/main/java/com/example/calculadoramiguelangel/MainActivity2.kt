@@ -11,7 +11,9 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
         val objetoIntent : Intent = intent
         var user = objetoIntent.getStringExtra("user")
-        setTitle("Hello " + user);
+        setTitle("Holita " + user);
     }
+
+
 }
 
