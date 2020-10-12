@@ -41,8 +41,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1.5"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Usuario" />
+                    android:hint="Usuario"
+                    android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/editTextPassword"
@@ -51,8 +51,8 @@
                     android:layout_weight="1.5"
                     android:ems="10"
                     android:foregroundGravity="bottom"
-                    android:inputType="textPersonName"
-                    android:text="Contraseña" />
+                    android:hint="Contraseña"
+                    android:inputType="textPersonName" />
             </LinearLayout>
 
 
