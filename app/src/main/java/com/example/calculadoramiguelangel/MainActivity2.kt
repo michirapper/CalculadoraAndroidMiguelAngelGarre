@@ -66,7 +66,7 @@ class MainActivity2 : AppCompatActivity() {
             val parts = string.split("÷".toRegex()).toTypedArray()
             val part1 = parts[0]
             val part2 = parts[1]
-            if (part2.contains("0")) {
+            if (part2.equals("0")) {
                 calculo.text = "No se puede dividir entre 0"
             } else {
                 var opr = part1.toInt() / part2.toInt()
